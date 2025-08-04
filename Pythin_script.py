@@ -1,6 +1,6 @@
 import yt_dlp
 
-playlist_url = "https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8"
+playlist_url = "https://www.youtube.com/playlist?list=PLU6SqdYcYsfJPF-4HphQQ8OceDtqhlSW8" # put your url here this is a sample one 
 
 ydl_opts = {
     'quiet': True,
