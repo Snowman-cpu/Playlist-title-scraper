@@ -31,11 +31,11 @@ Make sure you have Python installed on your system. You can download it from [py
 
 ### Running the Script
 
-1.  Open the `Pythin_script.py` file and replace the `playlist_url` with the URL of the YouTube playlist you want to scrape.
-
-2.  Run the script from your terminal:
+1.  Run the script from your terminal:
     ```bash
     python Pythin_script.py
     ```
+
+2.  The script will prompt you to enter the YouTube playlist URL. Paste the URL and press Enter.
 
 The script will then print the playlist title and a numbered list of all the video titles.
