@@ -12,5 +12,7 @@ with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     info = ydl.extract_info(playlist_url, download=False)
     print(f"Playlist title: {info.get('title')}\n")
     print("Video Titles:\n")
-    for entry in info.get('entries', []):
-        print(entry.get('title'))
+    for i, entry in enumerate(info.get('entries', []),start =1):
+        print(f"{i}.{entry.get('title')}")
+        
+         
