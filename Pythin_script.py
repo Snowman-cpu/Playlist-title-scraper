@@ -1,7 +1,6 @@
 import yt_dlp
 
-a = ("Enter your playlist url: \n")
-playlist_url = a # You don't need to manually change the url in the code now
+playlist_url = input("Enter your playlist url: \n")
 
 ydl_opts = {
     'quiet': True,
